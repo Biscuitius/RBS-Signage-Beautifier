@@ -1,4 +1,4 @@
-# RBS-Signage-Beautifier
+# Digital Signage Beautifier for TES Room Booking
 ### A browser extension to overhaul the default digital signage pages of the TES Room Booking System
 
 ## Introduction
@@ -7,7 +7,7 @@ This little extension was made while I was fairly early in the process of learni
 #### Feedback, criticism, suggestions and feature requests are entirely welcome and genuinely appreciated.
 
 ## Purpose
-At the time of writing, I'm currently working as a support technician for a SEND[^1] academy, which uses the Room Booking System for all their facility bookings. This includes everything from cameras and laptops to office spaces and minibuses. Functionally, the Room Booking System works fine for the most part. It does what it says on the tin, and most importantly, it's a free service provided as part of a larger package. Where it fails, however, is with its built-in digital signage.
+At the time of writing, I'm currently working as a support technician for a SEND[^1] academy, which uses the TES Room Booking system for all their facility bookings. This includes everything from cameras and laptops to office spaces and minibuses. Functionally, the Room Booking System works fine for the most part. It does what it says on the tin, and most importantly, it's a free service provided as part of a larger package. Where it fails, however, is with its built-in digital signage.
 
 #### Take a look at this example screenshot from the default digital signage links:
 ![Screenshot of the RBS default digital signage page](https://imgur.com/HWZaog8.png)
