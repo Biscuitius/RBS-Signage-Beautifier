@@ -1,0 +1,167 @@
+/*#region CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/*#endregion*/
+
+* {
+    overflow: hidden;
+}
+
+html {
+    font-family: "Manjari", "Poppins";
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #233E90;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
+    flex-shrink: 0;
+}
+
+table {
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #233E90;
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    background-color: #233E90;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+tbody th {
+    text-align: right;
+}
+
+td {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #233E90;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.booking-slot {
+    vertical-align: middle;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #233E90;
+    background-color: #C4E8FF;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+
+.empty p {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #596791;
+    /* border-color: #596791;
+    background-color: #d5dbed; */
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+tbody tr td:last-of-type {
+    border-right: none;
+}
+
+tbody tr:last-of-type td {
+    border-bottom: none;
+}

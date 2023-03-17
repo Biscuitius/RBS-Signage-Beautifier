@@ -1,0 +1,55 @@
+{
+   "action": {
+      "default_icon": {
+         "512": "icons/512.png",
+         "256": "icons/256.png",
+         "128": "icons/128.png",
+         "64": "icons/64.png",
+         "48": "icons/48.png",
+         "32": "icons/32.png",
+         "24": "icons/24.png",
+         "16": "icons/16.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [
+      {
+         "js": [
+            "content.js"
+         ],
+         "css": [
+            "style.css"
+         ],
+         "matches": [
+            "https://*.roombookingsystem.co.uk/digitalsignage?code=*"
+         ]
+      }
+   ],
+   "icons": {
+      "512": "icons/512.png",
+      "256": "icons/256.png",
+      "128": "icons/128.png",
+      "64": "icons/64.png",
+      "48": "icons/48.png",
+      "32": "icons/32.png",
+      "24": "icons/24.png",
+      "16": "icons/16.png"
+   },
+   "manifest_version": 3,
+   "name": "TES Room Booking Signage Beautifier",
+   "description": "Overhaul your booking system's digital signage",
+   "author": "Tyler Blake",
+   "version": "1.0",
+   "web_accessible_resources": [
+      {
+         "resources": [
+            "main.html"
+         ],
+         "matches": [
+            "https://*.roombookingsystem.co.uk/*"
+         ]
+      }
+   ]
+}
