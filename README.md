@@ -1,5 +1,4 @@
 # Digital Signage Beautifier for TES Room Booking
-### A browser extension to overhaul the default digital signage pages of the TES Room Booking System
 
 ## Introduction
 Salutations, my unacquainted friend!
